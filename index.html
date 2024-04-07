@@ -51,20 +51,20 @@
 	footer {
   	 padding: 24px;
   	 width: 100%;
-  	 background-color: #DEE1E2;
 	 margin-top: auto;
 	}
-	.content {
-	 padding: 16px;
-	 padding-left: 24px;
-	 max-width: 560px;
+	.column {
+	 float: left;
+	 padding: 24px;
+	 width: 50%;
 	}
-	.title {
-	 padding-left: 24px;
-	 padding-top: 24px;
+	.row:after {
+  	 content: "";
+  	 display: table;
+  	 clear: both;
 	}
 	.spacer {
-	padding: 32px;
+	 padding: 32px;
 	}
 	</style>
 </head>
@@ -75,53 +75,43 @@
     </header>
 	
     <body>
-	<div class ="title">
+      <div class ="row">
+	<div class="column">
 	<h3>About Me</h3>
-	</div>
-	<div class ="content">
-	I have 9+ years of experience designing effective digital products across the web3, supply chain, healthcare, and fintech industries. In my past year of work, I focused on the spot where web3 and healthcare intersect — a privacy-forward, menstrual tracking app called Embody.
-
-	I'm based in Atlanta, GA. Working remotely has allowed me to work and travel around the world. I enjoy connecting people, and I founded the organization Ladies Work Remote to bring women who work from home together for weekly coworking events.
+	<p>I have 9+ years of experience designing effective digital products across the web3, supply chain, healthcare, and fintech industries. In my past year of work, I focused on the spot where web3 and healthcare intersect — a privacy-forward, menstrual tracking app called Embody.</p>
+	<p>I'm based in Atlanta, GA. Working remotely has allowed me to work and travel around the world. I enjoy connecting people, and I founded the organization Ladies Work Remote to bring women who work from home together for weekly coworking events.</p>
 	</div>
 
-	<div class ="spacer">
-	</div>
+	<div class="spacer"></div>
 
-	<div class ="title">
+	<div class ="column">
 	<h3>Clients</h3>
-	</div>
-
-   	<div class ="content">
-	<h4>Elemica (2015–2019)</h4>
-        <p>User Interface (UI), Product Design, Design Systems, User Experience (UX)</p>
-	</div>
-
-	<div class ="content">
-   	<h4>My Pet Defense (2016–2019)</h4>
-        <p>UI, Branding, Marketing, Packaging, UX</p>
-	</div>
-	
-        <div class ="content">
-    	<h4>Tailwind (2021)</h4>
-        <p>UI, Design Systems</p>
-	</div>
-    
-        <div class ="content">
-    	<h4>Thesis (2019–Present)</h4>
+    	<h4>Thesis</h4>
         <p>Product Design, Design Systems, Branding, Marketing, User Research</p>
-	</div>
+	<p><a href="https://thesis.co/">Website</a></p>
 
-	<div class ="content">
-    	<h4>Embody (2023–2024)</h4>
+    	<h4>Embody</h4>
         <p>Product Design, Mobile App Design, UX, User Research</p>
+	<p><a href="https://elemica.com/">Website</a></p>
+
+	<h4>Tailwind</h4>
+        <p>UI, Design Systems</p>
+	<p><a href="https://www.tailwindapp.com/">Website</a></p>
+
+	<h4>Elemica</h4>
+        <p>User Interface (UI), Product Design, Design Systems, User Experience (UX)</p>
+	<p><a href="https://elemica.com/">Website</a></p>
+
+   	<h4>My Pet Defense</h4>
+        <p>UI, Branding, Marketing, Packaging, UX</p>
+	<p><a href="https://www.instagram.com/mypetdefense/">Website</a></p>
+
 	</div>
-	
-	<div class ="spacer">
-	</div>
+      </div>
     </body>
     
     <footer>
-	<p>&#169; <i></i>Liz Shinn Design</i></p>
-	<p><a href="mailto:lizshinndesign@gmail.com?subject=Portfolio Inquiry" title="Drop me a line">Email Me</a></p>
+	<p>&#169; <i></i>Liz Shinn Design LLC</i></p>
+	<p><a href="mailto:lizshinndesign@gmail.com?subject=Portfolio Inquiry" title="Drop me a line">Contact</a></p>
     </footer>
 </html>
