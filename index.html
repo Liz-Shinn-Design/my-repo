@@ -6,29 +6,34 @@
         <title>Liz Shinn</title>
         <meta name="keywords" content="portfolio, user experience, user interface">
         <meta name="description" content="Liz Shinn Design portfolio website">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="main.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Ojuju:wght@200..800&display=swap" rel="stylesheet">
 
 	<style>
+
+	* {
+ 	 box-sizing: border-box;
+        }
+
 	h1 {
  	 font-family: 'Ojuju', sans-serif;
          font-size: 56px;
 	 font-weight: 800; 
 	 margin: 0em;
-	 color: #ffecd1;
+	 color: #ffffff;
 	}
 	h2 {
 	 font-family: 'Ojuju', sans-serif;
 	 margin: 0em;
-	 font-weight: 400;
+	 font-weight: 500;
 	 font-size: 32px;
-	 color: #ffecd1;
+	 color: #fffaf5;
 	}
 	h3 {
- 	 font-family: 'Inter', sans-serif;
+ 	 font-family: 'Ojuju', sans-serif;
 	 font-weight: 500;
 	 font-size: 24px;
 	}
@@ -45,18 +50,18 @@
     	 display: flex;
     	 flex-direction: column;
 	 margin: 0em;
-	 background-color: #ffecd1;
+	 background-color: #fffaf5;
 	}
 	header{
  	 padding: 24px;
   	 width: 100%;
- 	 background-color: #f77f00;
+ 	 background-color: #dcfffd;
   	}
 	footer {
   	 padding: 24px;
   	 width: 100%;
 	 margin-top: auto;
-	 background-color: #eae2b7;
+	 background-color: #ffffff;
 	}
 	.column {
 	 float: left;
@@ -71,6 +76,11 @@
 	.spacer {
 	 padding: 24px;
 	}
+	@media screen and (max-width: 600px) {
+ 	 .column {
+    	width: 100%;
+  	}
+}
 	</style>
 </head>
 
