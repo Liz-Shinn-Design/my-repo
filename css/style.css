@@ -55,6 +55,9 @@
 	 background-color: #A4B9C4;
 	 color: #ffffff;
 	}
+	.logo {
+	max-width: 100px;
+	}
 	.button {
          background-color: #232425;
 	 padding: 10px 24px;
