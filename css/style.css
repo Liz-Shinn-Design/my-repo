@@ -55,8 +55,8 @@
 	 background-color: #A4B9C4;
 	 color: #ffffff;
 	}
-	img.logo {
-	max-width: 88px;
+	.img {
+	width: 88px;
 	}
 	.button {
          background-color: #232425;
