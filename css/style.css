@@ -45,12 +45,14 @@
   	  color: #6D8FA1;
           text-decoration: none;
 	}
-	footer {
-  	 padding: 24px;
-  	 width: 100%;
-	 margin-top: auto;
-	 background-color: #A4B9C4;
-	 color: #ffffff;
+	.footer {
+  	 position: fixed;
+         left: 0;
+         bottom: 0;
+         width: 100%;
+	 padding: 0 0 0 24px;
+	 background-color: #FDF6EF;
+	 color: #000;
 	}
 	.image {
 	width: 204px;
