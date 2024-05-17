@@ -63,11 +63,10 @@
 	 float: left;
         }
 	hr {
-  	 padding-left: 24px;
-	 padding-rigth: 24px;
-         width: 100%;
-  	 border-width: 1px;
-	 color: #000;
+         height: 1px;
+  	 border: 0;
+  	 border-top: 1px solid #000;
+	 width: 100%;
 	}
 	.footer {
          width: 100%;
@@ -106,6 +105,11 @@
 	 float: left;
 	 padding: 24px 24px 32px 24px;
 	 width: 50%;
+	}
+	.columnfull {
+	float: left;
+	width: 100%
+	padding: 24px;
 	}
 	.row:after {
   	 content: "";
