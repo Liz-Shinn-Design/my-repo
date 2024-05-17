@@ -71,7 +71,8 @@
 	width: 204px;
 	}
 	.portfolio {
-	max-width: 600px;
+	max-width: 640px;
+	width: 100%;
 	}
 	.button {
          color: white;
