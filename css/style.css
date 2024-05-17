@@ -62,6 +62,14 @@
         li {
 	 float: left;
         }
+	hr {
+  	 margin-left: 24px;
+	 margin-right: 24px;
+  	 margin: 0;
+         width: 100%;
+  	 border-width: 2px;
+	 color: #000;
+	}
 	.footer {
          width: 100%;
 	 padding-left: 12px;
