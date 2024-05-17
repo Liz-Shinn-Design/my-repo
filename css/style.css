@@ -70,6 +70,9 @@
 	.image {
 	width: 204px;
 	}
+	.portfolio {
+	max-width: 600px;
+	}
 	.button {
          color: white;
 	 background-color: #232425;
