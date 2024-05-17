@@ -63,11 +63,10 @@
 	 float: left;
         }
 	hr {
-  	 margin-left: 24px;
-	 margin-right: 24px;
-  	 margin: 0;
+  	 padding-left: 24px;
+	 padding-rigth: 24px;
          width: 100%;
-  	 border-width: 2px;
+  	 border-width: 1px;
 	 color: #000;
 	}
 	.footer {
