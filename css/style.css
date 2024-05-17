@@ -62,9 +62,8 @@
 	 float: left;
         }
 	.footer {
-         height: 56px;
          width: 100%;
-	 padding: 2px;
+	 padding: 1px 1px 1px 12px;
 	 background-color: #FDF6EF;
 	 color: #000;
 	}
