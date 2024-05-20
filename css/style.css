@@ -122,7 +122,7 @@
   	 clear: both;
 	}
 	.spacer {
-	 padding: 4px;
+	 padding-bottom: 24px;
 	}
 	@media screen and (max-width: 800px) {
  	 .columnleft {
