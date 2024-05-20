@@ -126,7 +126,7 @@
 	.columnfull {
 	float: left;
 	width: 100%;
-	padding: 24px;
+	padding: 24px 48px 40px 48px;
 	}
 	.logo-section {
 	display: flex;
@@ -163,6 +163,9 @@
 	.columnright {
     	width: 100%;
   	}
+	.columnfull {
+	padding: 24px;
+	}
         .portfolio {
 	width: 100%;
 	}
