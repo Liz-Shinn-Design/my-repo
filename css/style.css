@@ -148,12 +148,12 @@
 	.spacer {
 	 padding-bottom: 24px;
 	}
-	@media screen and (max-width: 800px) {
- 	.header {
-	padding-left: 20px;
-	padding-top: 20px;
+	@media screen and (max-width: 800px) 
+	{
+ 	header {
+	padding: 20px;
 	}
-	.ul {
+	ul {
 	margin-left: 16px;
 	}
 	.columnleft {
