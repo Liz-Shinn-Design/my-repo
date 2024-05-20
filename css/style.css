@@ -34,6 +34,9 @@
 	 margin-block-start: 40px;
 	 margin-block-end: 8px;
 	}
+	.subhead {
+	color: #828F95;
+	}
 	body {
  	 font-family: "Inter", sans-serif;
 	 font-weight: 400;
