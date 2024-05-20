@@ -48,9 +48,9 @@
 	 margin: 0px auto;
 	 color: #000000;
 	}
-	header{
- 	 padding: 20px;
-	 max-height: 180px;
+	header {
+ 	 padding-left: 44px;
+	 padding-top: 40px;
   	 width: 100%;
  	 background-color: #828F95;
   	}
@@ -71,7 +71,7 @@
         ul {
          list-style-type: none;
          margin: 0;
-	 margin-left: 16px;
+	 margin-left: 40px;
          padding: 0;
          overflow: hidden;
 	}
@@ -86,7 +86,7 @@
 	}
 	.footer {
          width: 100%;
-	 padding-left: 12px;
+	 padding-left: 24px;
 	 padding-top: 32px;
 	 color: #828F95;
 	}
@@ -94,7 +94,7 @@
 	width: 196px;
 	}
 	.portfolio {
-	max-width: 960px;
+	max-width: 920px;
 	width: 100%;
 	padding-bottom: 40px; 
 	}
@@ -114,7 +114,7 @@
         }
 	.columnleft {
 	 float: left;
-	 padding: 24px 56px 32px 24px;
+	 padding: 24px 56px 32px 48px;
 	 width: 50%;
 	 max-width: 600px;
 	}
@@ -149,7 +149,14 @@
 	 padding-bottom: 24px;
 	}
 	@media screen and (max-width: 800px) {
- 	 .columnleft {
+ 	.header {
+	padding-left: 20px;
+	padding-top: 20px;
+	}
+	.ul {
+	margin-left: 16px;
+	}
+	.columnleft {
 	padding: 24px 24px 32px 24px;
     	width: 100%;
   	}
