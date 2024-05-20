@@ -135,10 +135,11 @@
 	}
 	.logo-row {
 	margin: 0px auto;
-	padding: 16px;
+	padding: 12px;
 	}
 	.logo {
 	width: 100%;
+	padding-bottom: 12px;
 	}
 	.row:after {
   	 content: "";
