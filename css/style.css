@@ -98,9 +98,9 @@
         }
 	.columnleft {
 	 float: left;
-	 padding: 24px 48px 32px 24px;
+	 padding: 24px 56px 32px 24px;
 	 width: 50%;
-	 max-width: 640px;
+	 max-width: 600px;
 	}
 	.columnright {
 	 float: left;
@@ -122,6 +122,7 @@
 	}
 	@media screen and (max-width: 800px) {
  	 .columnleft {
+	padding: 24px 24px 32px 24px;
     	width: 100%;
   	}
 	.columnright {
