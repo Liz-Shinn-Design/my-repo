@@ -121,6 +121,18 @@
 	width: 100%;
 	padding: 24px;
 	}
+	.logo-section {
+	display: flex;
+        align-items: center;
+        justify-content: center;
+	}
+	.logo-row {
+	margin: 0px auto;
+	padding: 24px;
+	}
+	.logo {
+	max-width: 100px;
+	}
 	.row:after {
   	 content: "";
   	 display: table;
