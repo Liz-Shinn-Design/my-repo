@@ -128,10 +128,10 @@
 	}
 	.logo-row {
 	margin: 0px auto;
-	padding: 24px;
+	padding: 16px;
 	}
 	.logo {
-	max-width: 100px;
+	width: 100%;
 	}
 	.row:after {
   	 content: "";
