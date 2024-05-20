@@ -35,6 +35,7 @@
 	 margin-block-end: 8px;
 	}
 	.subhead {
+	margin-block-start: 16px;
 	color: #828F95;
 	}
 	body {
