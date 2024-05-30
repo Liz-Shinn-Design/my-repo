@@ -46,9 +46,9 @@
 	 color: #000000;
 	}
 	.label {
-	text-transform: capitalize;
-	font-weight: 500;
-	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 0.8px;
 	}
 	header {
  	 padding-left: 44px;
