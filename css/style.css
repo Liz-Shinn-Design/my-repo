@@ -96,7 +96,7 @@
 	width: 100%;
 	padding-bottom: 24px; 
 	}
-	.columnleft {
+	.column {
 	 float: left;
 	 padding: 24px 56px 32px 48px;
 	 width: 50%;
@@ -141,7 +141,7 @@
 	ul {
 	margin-left: 16px;
 	}
-	.columnleft {
+	.column {
 	padding: 24px 24px 32px 24px;
     	width: 100%;
   	}
