@@ -111,6 +111,11 @@
 	 width: 50%;
 	 max-width: 640px;
 	}
+	.columnleft {
+	 float: left;
+	 padding: 24px 56px 32px 24px;
+	 width: 50%;
+	}
 	.columnright {
 	 float: left;
 	 padding: 24px 24px 32px 24px;
@@ -154,6 +159,10 @@
 	padding: 24px 24px 32px 24px;
     	width: 100%;
   	}
+	.columnleft {
+    	padding: 24px 0px 32px 0px;
+	width: 100%;
+	}
 	.columnright {
     	padding: 24px 0px 32px 0px;
 	width: 100%;
