@@ -38,10 +38,10 @@
 	}
 	body {
  	 font-family: "Inter", sans-serif;
-	 font-size: 15px;
+	 font-size: 16px;
 	 font-weight: 400;
 	 background-color: #ffffff;
- 	 line-height: 1.8;
+ 	 line-height: 1.9;
 	 margin: 0px auto;
 	 color: #000000;
 	}
@@ -91,7 +91,7 @@
 	 padding-left: 24px;
 	 padding-top: 32px;
 	 color: #828F95;
-	 font-size: 12px;
+	 font-size: 14px;
 	}
 	.image {
 	width: 196px;
