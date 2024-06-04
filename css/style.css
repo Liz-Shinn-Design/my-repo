@@ -39,35 +39,43 @@
 	 margin-block-end: 0.5em;
 	 color: #232425;
 	}
-	body {
- 	 font-family: "Inter", sans-serif;
-	 font-size: 16px;
-	 font-weight: 400;
-	 background-color: #ffffff;
- 	 line-height: 1.9;
-	 margin: 0px auto;
-	 color: #000000;
-	}
-	.label {
+    .label {
 	text-transform: uppercase;
 	font-weight: 600;
 	font-size: 15px;
 	letter-spacing: 0.6px;
 	color: #232425;
 	}
+	body {
+     font-family: "Inter", sans-serif;
+	 font-size: 16px;
+	 font-weight: 400;
+	 background-color: #ffffff;
+ 	 line-height: 1.9;
+	 color: #000000;
+     margin: 0px auto;
+	}
+    .container {
+    max-width: 1120px;
+    margin: 0px auto;
+    }
 	header {
- 	 padding-left: 44px;
-	 padding-top: 40px;
   	 width: 100%;
  	 background-color: #8e8282;
   	}
+    .navigation {
+     display: block;
+	 padding: 24px 0px 4px 16px;
+     max-width: 1120px;
+     margin: 0px auto;
+    }
 	a {
   	  color: #6D8FA1;
           text-decoration: none;
 	}
         li a {
           display: block;
-          color: black;
+          color: white;
           text-align: center;
           padding: 12px;
           text-decoration: none;
@@ -78,7 +86,6 @@
         ul {
          list-style-type: none;
          margin: 0;
-	 margin-left: 40px;
          padding: 0;
          overflow: hidden;
 	}
@@ -86,13 +93,13 @@
 	 float: left;
         }
 	hr {
-         height: 1px;
+     height: 1px;
   	 border: 0;
   	 border-top: 1px solid #e4e4e4;
 	 width: 100%;
 	}
 	.footer {
-         width: 100%;
+     width: 100%;
 	 padding-left: 24px;
 	 padding-top: 32px;
 	 color: #828F95;
@@ -104,22 +111,22 @@
 	.portfolio {
 	max-width: 920px;
 	width: 100%;
-	padding-bottom: 12px; 
+	border-radius: 24px; 
 	}
 	.column {
 	 float: left;
-	 padding: 24px 56px 12px 48px;
+	 padding: 24px 56px 16px 48px;
 	 width: 50%;
 	 max-width: 640px;
 	}
 	.columnleft {
 	 float: left;
-	 padding: 24px 24px 12px 24px;
+	 padding: 24px 24px 16px 24px;
 	 width: 50%;
 	}
 	.columnright {
 	 float: left;
-	 padding: 24px 24px 12px 24px;
+	 padding: 24px 24px 16px 24px;
 	 width: 50%;
 	}
 	.columnfull {
@@ -173,5 +180,7 @@
 	}
         .portfolio {
 	width: 100%;
+    padding-bottom: 8px;
+    border-radius: 0px;
 	}
 	}
