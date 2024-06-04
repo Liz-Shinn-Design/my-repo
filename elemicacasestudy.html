@@ -14,21 +14,24 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-    <header>
-    <div class="navigation">  
+<header>
+    <div class="topnav">
+    <div id="myTopnav">
 	<a href="https://lizshinndesign.com/">
 	  <img src="/images/site-logo.png" class="image" alt="Liz Shinn Studio logo">
-        </a>
-    <ul>
-  	 <li><a href="/portfolio.html">Work</a></li>
-     <li><a href="/about.html">About</a></li>
-	 <li><a href="/images/Liz-Shinn-Resume.pdf">Resume</a></li>
-    </ul>
+    </a>
+    <a href="/about.html" class="split">About</a>
+    <a href="/images/Liz-Shinn-Resume.pdf" class="split">Resume</a>
+    <a href="/portfolio.html" class="split">Work</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+    </div>    
     </div>  
-    </header>
-	
+</header>
 <body>
     <div class="container">
 
@@ -54,6 +57,20 @@
 	</div>
 </div>
 </div>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+
 </body>
 <div class="footer">
 	<p>&#169; Liz Shinn Design LLC</p>
