@@ -4,9 +4,9 @@
 
 	h1 {
  	 font-family: "Poppins", sans-serif;
-         font-size: 3.75em;
+    font-size: 3.725em;
 	 font-weight: 400;
-	 line-height: 1.15em;
+	 line-height: 1.1em;
 	 letter-spacing: -0.025em;
 	 margin: 0em 0 0.25em;
 	 color: #8e8282;
@@ -61,10 +61,10 @@
     .container {
     max-width: 1240px;
     margin: 0px auto;
-    padding-top: 40px;
+    padding-top: 32px;
     }
    .mission {
-    max-width: 680px;
+    max-width: 720px;
     }
 	header {
   	 width: 100%;
@@ -76,13 +76,15 @@
 	}
     .button {
     color: white;
-    font-weight: 400;
-	font-size: 0.8em;
-	letter-spacing: 0.125em;
+    font-weight: 500;
+	font-size: 0.9em;
+	letter-spacing: 0.175em;
     text-transform: uppercase;
     background: black;
     padding: 12px 24px;
     border-radius: 24px;
+    margin: 32px 0px;
+    display: table;
     }
     .topnav {
     overflow: hidden;
@@ -128,7 +130,7 @@
 	border-radius: 24px; 
 	}
     .feature-image {
-    padding-bottom: 24px; 
+    padding: 24px 0px; 
     }
 	.column-article {
 	 float: left;
@@ -176,6 +178,10 @@
 	}
 	@media screen and (max-width: 800px) 
 	{
+    h1 {
+    font-size: 3.25em;
+    line-height: 1.1em;
+    }
 	.column-article {
 	padding: 8px 24px;
     width: 100%;
