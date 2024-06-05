@@ -4,18 +4,18 @@
 
 	h1 {
  	 font-family: "Poppins", sans-serif;
-     font-size: 3em;
+     font-size: 3.75em;
 	 font-weight: 400;
-	 line-height: 1.1em;
+	 line-height: 1em;
 	 letter-spacing: -0.025em;
-	 margin: 0em 0 0.4em;
+	 margin: 0em 0 0.2em;
 	 color: #8e8282;
 	}	
 	h2 {
 	 font-family: "Poppins", sans-serif;
 	 font-weight: 400;
-	 font-size: 2.475em;
-	 line-height: 1em;
+	 font-size: 2.5em;
+	 line-height: 1.2em;
 	 letter-spacing: -0.025em;
 	 margin: 0em 0 0.5em;
 	 color: #232425;
@@ -25,7 +25,7 @@
 	 font-weight: 400;
 	 letter-spacing: -0.025em;
 	 font-size: 2em;
-	 line-height: 1.4em;
+	 line-height: 1.3em;
 	 margin: 0 0 0.5em;
 	 color: #232425;
 	}
@@ -34,37 +34,38 @@
 	 font-weight: 400;
 	 letter-spacing: -0.025em;
 	 font-size: 1.1em;
-	 line-height: 1.3em;
+	 line-height: 1.4em;
 	 margin: 0 0 1em;
-	 color: #232425;
+	 color: #303030;
 	}
-    .label {
+    h5 {
 	text-transform: uppercase;
 	font-weight: 400;
 	font-size: 0.8em;
+    margin: 0 0 1em;
 	letter-spacing: 0.125em;
-	color: #232425;
+	color: #303030;
 	}
 	body {
      font-family: "Inter", sans-serif;
 	 font-size: 1em;
 	 font-weight: 400;
-	 background-color: #ffffff;
+	 background-color: #F7F7F7;
  	 line-height: 1.675em;
-	 color: #000000;
+	 color: #303030;
      margin: 0px auto;
 	}
     .container {
-    max-width: 1120px;
+    max-width: 1240px;
     margin: 0px auto;
-    padding-top: 24px;
+    padding-top: 40px;
     }
    .mission {
-    max-width: 640px;
+    max-width: 680px;
     }
 	header {
   	 width: 100%;
- 	 background-color: #8e8282;
+ 	 background-color: #F7F7F7;
   	}
 	a {
     color: #6D8FA1;
@@ -83,13 +84,13 @@
     .topnav {
     overflow: hidden;
     padding: 12px 0px 0px 0px;
-    max-width: 1120px;
+    max-width: 1240px;
     margin: 0px auto;
     }
     .topnav a {
      float: left;
      display: block;
-     color: white;
+     color: #303030;
      padding: 8px 16px;
      text-align: center;
      text-transform: uppercase;
@@ -108,13 +109,6 @@
     .topnav .icon {
     display: none;
     }
-	hr {
-     height: 1px;
-  	 border: 0;
-  	 border-top: 1px solid #e4e4e4;
-	 width: 100%;
-     padding: 8px;
-	}
 	.footer {
      width: 100%;
 	 padding-left: 24px;
@@ -123,7 +117,7 @@
 	 font-size: 14px;
 	}
 	.image {
-	width: 180px;
+	width: 172px;
 	}
 	.portfolio {
 	max-width: 920px;
@@ -140,14 +134,23 @@
 	 padding: 16px 24px;
 	 width: 50%;
 	}
-	.column-menu {
-	width: 100%;
-	padding: 24px 16px;
+	.menu {
+	padding: 32px 24px;
 	}
+    .menu a {
+    color: #303030;
+    }
+    .menu hr {
+     height: 1px;
+  	 border: 0;
+  	 border-top: 1px solid #e4e4e4;
+	 width: 100%;
+     margin: 32px 0px;
+    }
 	.logo-section {
 	display: flex;
-        align-items: center;
-        justify-content: center;
+    align-items: center;
+    justify-content: center;
 	}
 	.logo-row {
 	margin: 0px auto;
