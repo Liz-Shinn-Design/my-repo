@@ -61,7 +61,11 @@
     .container {
     max-width: 1240px;
     margin: 0px auto;
-    padding-top: 32px;
+    padding: 32px 0px;
+    }
+    .section {
+    display: block;
+    padding: 24px;
     }
    .mission {
     max-width: 720px;
@@ -80,8 +84,21 @@
 	font-size: 0.9em;
 	letter-spacing: 0.175em;
     text-transform: uppercase;
-    background: black;
+    background: #DF3C57;
     padding: 12px 24px;
+    border-radius: 24px;
+    margin: 32px 0px;
+    display: table;
+    }
+    .button-secondary {
+    color: black;
+    font-weight: 500;
+	font-size: 0.9em;
+	letter-spacing: 0.175em;
+    text-transform: uppercase;
+    background: #fafafa;
+    padding: 12px 24px;
+    border: 1px solid black;
     border-radius: 24px;
     margin: 32px 0px;
     display: table;
@@ -193,6 +210,10 @@
 	.column-menu {
     padding: 24px 32px;
 	}
+    .section {
+    display: block;
+    padding: 24px;
+    }
     .mission {
     padding: 24px;        
     }
@@ -212,6 +233,10 @@
     width: 100%;
     text-align: center;
     }
+    .button-secondary{
+    display: block;
+    width: 100%;
+    text-align: center;
    }
    @media screen and (max-width: 640px) {
   .topnav a:not(:first-child) {display: none;}
