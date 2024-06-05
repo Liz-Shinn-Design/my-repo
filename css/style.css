@@ -199,6 +199,9 @@
     font-size: 3.25em;
     line-height: 1.1em;
     }
+    .container {
+    padding-top: 16px;
+    }
 	.column-article {
 	padding: 8px 24px;
     width: 100%;
