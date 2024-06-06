@@ -173,7 +173,7 @@
     position: relative;
     
 	}
-    .portfolio-row {
+    .portfolio-row a {
      flex-direction: row;
      justify-content: flex-start;
      display: flex;
@@ -183,7 +183,7 @@
      align-items: center;
     }
 
-    .portfolio-row a {   
+    .portfolio-row h1 {   
      padding-left: 24px;
      color: #232425;
      display: block;
