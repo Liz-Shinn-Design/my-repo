@@ -149,6 +149,12 @@
     .feature-image {
     padding: 24px 0px; 
     }
+    .menu-image {
+    height: 104px;
+    border-radius: 16px;
+    padding-left: 0px;
+    padding-right: 0px;    
+    }
 	.column-article {
 	 float: left;
 	 padding: 24px 56px 24px 24px;
@@ -159,19 +165,30 @@
 	 padding: 16px 24px;
 	 width: 50%;
 	}
-	.menu {
-	padding: 32px 24px;
+	.portfolio-menu {
+    padding: 0px 24px;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    
 	}
-    .menu a {
-    color: #303030;
-    }
-    .menu hr {
-     height: 1px;
-  	 border: 0;
-  	 border-top: 1px solid #e4e4e4;
+    .portfolio-row {
+     flex-direction: row;
+     justify-content: flex-start;
+     display: flex;
+  	 border-bottom: 1px solid #e4e4e4;
 	 width: 100%;
-     margin: 32px 0px;
+     padding: 24px 0px;
+     align-items: center;
     }
+
+    .portfolio-row a {   
+     padding-left: 24px;
+     color: #232425;
+     display: block;
+    }
+
 	.logo-section {
 	display: flex;
     align-items: center;
@@ -198,6 +215,11 @@
     h1 {
     font-size: 3.25em;
     line-height: 1.1em;
+    }
+    .portfolio-row a {
+     font-size: .55em;
+     line-height: 1.15em;
+     padding-left: 16px;
     }
     .container {
     padding-top: 16px;
