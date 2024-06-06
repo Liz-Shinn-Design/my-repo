@@ -86,8 +86,8 @@
     text-transform: uppercase;
     background: #DF3C57;
     padding: 12px 24px;
-    border-radius: 24px;
-    margin: 32px 0px;
+    border-radius: 999px;
+    margin: 24px 0px;
     display: table;
     }
     .button-secondary {
@@ -99,8 +99,8 @@
     background: #fafafa;
     padding: 12px 24px;
     border: 1px solid black;
-    border-radius: 24px;
-    margin: 32px 0px;
+    border-radius: 999px;
+    margin: 24px 0px;
     display: table;
     }
     .topnav {
