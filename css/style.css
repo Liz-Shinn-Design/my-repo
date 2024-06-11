@@ -68,7 +68,9 @@
     padding: 24px;
     }
    .mission {
-    max-width: 720px;
+    float: left;
+    padding: 0px 24px 24px;
+    width: 50%;
     }
 	header {
   	 width: 100%;
@@ -79,6 +81,8 @@
     text-decoration: none;
 	}
     .button {
+    float: left;
+    display: block;
     color: white;
     font-weight: 500;
 	font-size: 0.9em;
@@ -87,10 +91,14 @@
     background: #DF3C57;
     padding: 12px 24px;
     border-radius: 999px;
-    margin: 24px 0px;
-    display: table;
+    margin: 0px 16px 0px 0px;
+    }
+    .button:hover {
+    background: #C92C46;
     }
     .button-secondary {
+    float: left;
+    display: block;
     color: black;
     font-weight: 500;
 	font-size: 0.9em;
@@ -100,8 +108,10 @@
     padding: 12px 24px;
     border: 1px solid black;
     border-radius: 999px;
-    margin: 24px 0px;
-    display: table;
+    margin: 0px 16px 16px 0px;
+    }
+    .button-secondary:hover {
+    background: #EBEFF2;
     }
     .topnav {
     overflow: hidden;
@@ -172,7 +182,7 @@
     }
 	.column-portfolio {
 	 float: left;
-	 padding: 16px 48px;
+	 padding: 12px 24px;
 	 width: 50%;
 	}
 	.portfolio-menu {
@@ -265,7 +275,8 @@
     padding: 24px;
     }
     .mission {
-    padding: 24px;        
+    padding: 0px 24px;
+    width: 100%;
     }
     .portfolio {
 	width: 100%;
@@ -279,14 +290,14 @@
     padding-top: 0px;
     }
     .button {
-    display: block;
     width: 100%;
     text-align: center;
+    margin: 16px 0px;
     }
-    .button-secondary{
-    display: block;
+    .button-secondary {
     width: 100%;
     text-align: center;
+    margin: 16px 0px;
    }
    @media screen and (max-width: 640px) {
   .topnav a:not(:first-child) {display: none;}
