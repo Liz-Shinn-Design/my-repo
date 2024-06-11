@@ -4,7 +4,7 @@
 
 	h1 {
  	 font-family: "Poppins", sans-serif;
-    font-size: 3.725em;
+     font-size: 3.725em;
 	 font-weight: 400;
 	 line-height: 1.05em;
 	 letter-spacing: -0.025em;
@@ -27,7 +27,7 @@
 	 font-size: 2em;
 	 line-height: 1.3em;
 	 margin: 0 0 0.5em;
-	 color: #232425;
+	 color: #383838;
 	}
 	h4 {
  	 font-family: "Poppins", sans-serif;
@@ -36,7 +36,7 @@
 	 font-size: 1.25em;
 	 line-height: 1.5em;
 	 margin: 0 0 1em;
-	 color: #303030;
+	 color: #383838;
 	}
     h5 {
 	text-transform: uppercase;
@@ -44,7 +44,7 @@
 	font-size: 1em;
     margin: 0 0 0.2em;
 	letter-spacing: 0.175em;
-	color: #232425;
+	color: #383838;
 	}
     h6 {
     font-family: "Poppins", sans-serif;
@@ -53,6 +53,7 @@
     font-size: 0.75em;
     margin: 0 0 0.2em;
     letter-spacing: 0.175em;
+    color: #232425;
     }
     p {
     margin: 12px 0px 28px 0px;
@@ -165,7 +166,8 @@
 	border-radius: 24px; 
 	}
     .feature-image {
-    padding: 24px 0px; 
+    width: 100%; 
+    border-radius: 24px;
     }
     .menu-image {
     height: 104px;
@@ -237,7 +239,7 @@
 	}
     .row-details {
     border-radius: 24px;
-    background-color: #ece5e5;
+    background-color: #EFEFEF;
     }
     .row-details:after {
   	 content: "";
@@ -247,7 +249,8 @@
 	.spacer {
 	 padding-bottom: 24px;
 	}
-	@media screen and (max-width: 800px) 
+
+	@media screen and (max-width: 960px) 
 	{
     h1 {
     font-size: 3.25em;
@@ -273,7 +276,7 @@
     padding: 24px 32px;
 	}
     .column-details {
-    width: 100%;
+    width: 50%;
     }
     .details-box {
     width: 100%;
@@ -284,6 +287,10 @@
     }
     .mission {
     padding: 0px 24px;
+    width: 100%;
+    }
+    .feature-image {
+    border-radius: 24px;
     width: 100%;
     }
     .portfolio {
@@ -307,7 +314,7 @@
     text-align: center;
     margin: 16px 0px;
    }
-   @media screen and (max-width: 640px) {
+   @media screen and (max-width: 960px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -316,7 +323,7 @@
    }
    }    
 
-    @media screen and (max-width: 640px){
+    @media screen and (max-width: 960px){
    .topnav.responsive {position: relative;}
    .topnav.responsive .icon {
     position: absolute;
@@ -329,4 +336,12 @@
     text-align: left;
     }
     }
+
+    @media screen and (max-width: 640px) 
+	{
+    .column-details {
+    width: 100%;
+    }
+    }
+
 
