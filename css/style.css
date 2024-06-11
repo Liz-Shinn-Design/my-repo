@@ -41,11 +41,19 @@
     h5 {
 	text-transform: uppercase;
 	font-weight: 500;
-	font-size: 0.95em;
+	font-size: 1em;
     margin: 0 0 0.2em;
-	letter-spacing: 0.125em;
+	letter-spacing: 0.175em;
 	color: #232425;
 	}
+    h6 {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.75em;
+    margin: 0 0 0.2em;
+    letter-spacing: 0.175em;
+    }
     p {
     margin: 12px 0px 28px 0px;
     }
@@ -172,12 +180,12 @@
 	}
     .details-box {
      float: left;
-	 padding: 24px 24px 48px 24px;
+	 padding: 24px 24px 32px 24px;
 	 width: 50%;
 	}
     .column-details {
     float: left;
-    padding: 24px;
+    padding: 0px 24px 24px 24px;
     width: 50%;
     }
 	.column-portfolio {
