@@ -9,7 +9,7 @@
 	 line-height: 1.05em;
 	 letter-spacing: -0.025em;
 	 margin: 0em 0 0.25em;
-	 color: #8e8282;
+	 color: #000000;
 	}	
 	h2 {
 	 font-family: "Poppins", sans-serif;
@@ -17,33 +17,33 @@
 	 font-size: 2.5em;
 	 line-height: 1.2em;
 	 letter-spacing: -0.025em;
-	 margin: 0em 0 0.5em;
-	 color: #232425;
+	 margin: 0em 0 0.3em;
+	 color: #303030;
 	}
 	h3 {
  	 font-family: "Poppins", sans-serif;
 	 font-weight: 400;
 	 letter-spacing: -0.025em;
 	 font-size: 2em;
-	 line-height: 1.3em;
-	 margin: 0 0 0.5em;
+	 line-height: 1.35em;
+	 margin: 0 0 0.3em;
 	 color: #383838;
 	}
 	h4 {
  	 font-family: "Poppins", sans-serif;
 	 font-weight: 400;
 	 letter-spacing: -0.02em;
-	 font-size: 1.25em;
+	 font-size: 1.45em;
 	 line-height: 1.5em;
-	 margin: 0 0 1em;
-	 color: #383838;
+	 margin: 0 0 0.5em;
+	 color: #000000;
 	}
     h5 {
 	text-transform: uppercase;
 	font-weight: 500;
-	font-size: 1em;
+	font-size: 0.9em;
     margin: 0 0 0.2em;
-	letter-spacing: 0.175em;
+	letter-spacing: 0.165em;
 	color: #383838;
 	}
     h6 {
@@ -136,12 +136,13 @@
      text-align: center;
      text-transform: uppercase;
 	 font-weight: 500;
-	 font-size: 0.8em;
-	 letter-spacing: 0.175em;
+	 font-size: 0.9em;
+	 letter-spacing: 0.165em;
      text-decoration: none;
     }
     .topnav a:hover {
     text-decoration: underline;
+    color: #000000;
     }
     .topnav a.split {
     float: right;
@@ -170,38 +171,53 @@
     border-radius: 24px;
     }
     .menu-image {
-    height: 104px;
+    width: 25%;
     border-radius: 16px;
     padding-left: 0px;
     padding-right: 0px;    
     }
+    .quote {
+    border-left: 4px solid #8e8282; 
+    padding: 0px 16px 0px 24px;
+    margin: 32px;
+    width: 75%;
+    }
 	.column-article {
 	 float: left;
-	 padding: 24px 56px 24px 24px;
+	 padding: 24px 48px 24px 24px;
 	 width: 50%;
+	}
+    .column-title {
+	 float: left;
+	 padding: 24px;
+	 width: 100%;
 	}
     .details-box {
      float: left;
 	 padding: 24px 24px 32px 24px;
 	 width: 50%;
 	}
-    .column-details {
+    .column-details-left {
     float: left;
-    padding: 0px 24px 24px 24px;
+    padding: 32px 12px 32px 32px;
+    width: 50%;
+    }
+    .column-details-right {
+    float: left;
+    padding: 32px 32px 32px 12px;
     width: 50%;
     }
 	.column-portfolio {
+	 float: left;
 	 float: left;
 	 padding: 12px 24px;
 	 width: 50%;
 	}
 	.portfolio-menu {
-    padding: 0px 48px;
+    padding: 0px 24px;
     width: 100%;
     flex-direction: column;
     display: flex;
-    position: relative;
-    
 	}
     .portfolio-row a {
      flex-direction: row;
@@ -214,7 +230,7 @@
     }
 
     .portfolio-row h1 {   
-     padding-left: 24px;
+     padding-left: 32px;
      color: #232425;
      display: block;
     }
@@ -253,13 +269,12 @@
 	@media screen and (max-width: 960px) 
 	{
     h1 {
-    font-size: 3.25em;
-    line-height: 1.1em;
+    font-size: 2.75em;
+    line-height: 1.15em;
     }
-    .portfolio-row a {
-     font-size: .55em;
-     line-height: 1.15em;
-     padding-left: 16px;
+    .portfolio-row h1 {
+    padding-left: 20px;
+    font-size: 2em;
     }
     .container {
     padding-top: 16px;
@@ -275,11 +290,18 @@
 	.column-menu {
     padding: 24px 32px;
 	}
-    .column-details {
+    .column-details-left {
+    width: 50%;
+    }
+    .column-details-right {
     width: 50%;
     }
     .details-box {
     width: 100%;
+    }
+    .quote {
+    width: 100%;
+    margin: 32px 32px 32px 0px;
     }
     .section {
     display: block;
@@ -339,8 +361,13 @@
 
     @media screen and (max-width: 640px) 
 	{
-    .column-details {
+    .column-details-left {
     width: 100%;
+    padding: 32px 32px 0px 32px;
+    }
+    .column-details-right {
+    width: 100%;
+    padding: 32px;
     }
     }
 
