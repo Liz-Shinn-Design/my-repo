@@ -18,6 +18,6 @@
   
 @font-face {
   font-family: "VeronaSerialRegular";
-  src: url('webFonts/VeronaSerialRegular/font.woff2') format('woff2'), url('webFonts/VeronaSerialRegular/font.woff') format('woff');
+  src: url('/webFonts/VeronaSerialRegular/font.woff2') format('woff2'), url('/webFonts/VeronaSerialRegular/font.woff') format('woff');
 }
 
