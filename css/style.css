@@ -200,12 +200,12 @@
     .column-details-left {
     float: left;
     padding: 32px 12px 32px 32px;
-    width: 50%;
+    width: 45%;
     }
     .column-details-right {
     float: left;
     padding: 32px 32px 32px 12px;
-    width: 50%;
+    width: 55%;
     }
 	.column-portfolio {
 	 float: left;
