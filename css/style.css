@@ -41,7 +41,7 @@
 	text-transform: uppercase;
 	font-weight: 500;
 	font-size: 0.9em;
-    margin: 0 0 0.2em;
+    margin: 0 0 0.5em;
 	letter-spacing: 0.165em;
 	color: #383838;
 	}
@@ -50,7 +50,7 @@
     text-transform: uppercase;
     font-weight: 500;
     font-size: 0.75em;
-    margin: 0 0 0.2em;
+    margin: 0 0 0.25em;
     letter-spacing: 0.175em;
     color: #232425;
     }
@@ -205,6 +205,11 @@
     float: left;
     padding: 32px 32px 32px 12px;
     width: 55%;
+    }
+    .column-details {
+    float: left;
+    padding: 32px;
+    width: 100%;
     }
 	.column-portfolio {
 	 float: left;
