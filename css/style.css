@@ -89,8 +89,8 @@
     text-decoration: none;
 	}
     ul {
-    padding-bottom: 24px;
-    padding-top: 24px;
+    padding-top: 16px;
+    padding-bottom: 20px;
     }
     .button {
     float: left;
@@ -181,8 +181,8 @@
     }
     .quote {
     border-left: 4px solid #8e8282; 
-    padding: 0px 24px 0px 24px;
-    margin: 40px;
+    padding: 0px 16px 0px 24px;
+    margin: 40px 32px;
     width: 75%;
     }
 	.column-article {
@@ -195,6 +195,16 @@
 	 padding: 24px;
 	 width: 100%;
 	}
+    .portfolio-details {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 16px;
+    display: flex;
+    }
+    .portfolio-details h4 {
+    color: #BBBBBB
+    }
     .details-box {
      float: left;
 	 padding: 24px 24px 32px 24px;
