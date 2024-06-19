@@ -55,7 +55,7 @@
     color: #232425;
     }
     p {
-    margin: 12px 0px 28px 0px;
+    margin: 16px 0px 24px 0px;
     }
     body {
      font-family: "Inter", sans-serif;
@@ -88,6 +88,10 @@
     color: #6D8FA1;
     text-decoration: none;
 	}
+    ul {
+    padding-bottom: 24px;
+    padding-top: 24px;
+    }
     .button {
     float: left;
     display: block;
@@ -177,8 +181,8 @@
     }
     .quote {
     border-left: 4px solid #8e8282; 
-    padding: 0px 16px 0px 24px;
-    margin: 32px;
+    padding: 0px 24px 0px 24px;
+    margin: 40px;
     width: 75%;
     }
 	.column-article {
