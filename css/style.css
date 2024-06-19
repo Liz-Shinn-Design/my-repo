@@ -73,7 +73,7 @@
     }
     .section {
     display: block;
-    padding: 24px;
+    padding: 16px 24px;
     }
    .mission {
     float: left;
@@ -155,12 +155,19 @@
     display: none;
     }
 	.footer {
-     width: 100%;
-	 padding-left: 24px;
-	 padding-top: 32px;
-	 color: #828F95;
-	 font-size: 14px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
+    padding: 80px 24px 16px;
 	}
+    .footer img {
+    max-width: 164px;
+    }
+    .footer a.button-secondary {
+    margin-right: 0px;
+    }
+
 	.image {
 	width: 172px;
 	}
@@ -228,7 +235,7 @@
 	.column-portfolio {
 	 float: left;
 	 float: left;
-	 padding: 12px 24px;
+	 padding: 16px 24px;
 	 width: 50%;
 	}
 	.portfolio-menu {
@@ -324,7 +331,20 @@
     }
     .section {
     display: block;
-    padding: 24px;
+    padding: 8px 24px;
+    }
+    .footer {
+    display: block;
+    width: 100%;
+    }
+    .footer img {
+    max-width: 240px;
+    }
+    .footer a.button-secondary {
+    margin-bottom: 48px;
+    }
+    .footer a.button {
+    margin: 24px 0px 4px;
     }
     .mission {
     padding: 0px 24px;
