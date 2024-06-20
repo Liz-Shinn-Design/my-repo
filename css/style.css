@@ -400,7 +400,11 @@
     display: block;
     text-align: left;
     border-bottom: 1px solid #303030;
-    padding: 16px 0px;
+    padding: 16px 24px;
+    }
+    .topnav.responsive a {
+    float: none;
+    display: block;
     }
     }
 
