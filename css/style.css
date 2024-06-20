@@ -395,12 +395,12 @@
     right: 0;
     top: 12px;
     }
-    .topnav.responsive a {
+    .topnav.responsive a.split {
     float: none;
     display: block;
     text-align: left;
     border-bottom: 1px solid #303030;
-    padding: 8px 16px 16px;
+    padding: 16px 0px;
     }
     }
 
