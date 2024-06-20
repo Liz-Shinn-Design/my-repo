@@ -403,8 +403,9 @@
     padding: 16px 24px;
     }
     .topnav.responsive a {
-    float: none;
+    float: left;
     display: block;
+    text-align: left;
     }
     }
 
