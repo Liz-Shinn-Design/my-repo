@@ -7,7 +7,7 @@
      font-size: 4em;
 	 font-weight: 400;
 	 line-height: 1em;
-	 margin: 0em 0 0.4em;
+	 margin: 0em 0 0.75em;
 	 color: #000000;
 	}	
 	h2 {
@@ -16,7 +16,7 @@
 	 font-size: 2.5em;
 	 line-height: 1.2em;
 	 letter-spacing: -0.025em;
-	 margin: 0em 0 0.3em;
+	 margin: 0em 0 0.6em;
 	 color: #303030;
 	}
 	h3 {
@@ -25,7 +25,7 @@
 	 letter-spacing: -0.025em;
 	 font-size: 2em;
 	 line-height: 1.35em;
-	 margin: 0 0 0.3em;
+	 margin: 0 0 0.5em;
 	 color: #383838;
 	}
 	h4 {
@@ -39,19 +39,19 @@
 	}
     h5 {
 	text-transform: uppercase;
-	font-weight: 500;
-	font-size: 0.9em;
-    margin: 0 0 0.5em;
-	letter-spacing: 0.165em;
+	font-weight: 600;
+	font-size: 1em;
+    margin: 0 0 0.4em;
+	letter-spacing: 0.15em;
 	color: #383838;
 	}
     h6 {
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
-    font-weight: 500;
-    font-size: 0.75em;
-    margin: 0 0 0.25em;
-    letter-spacing: 0.175em;
+    font-weight: 600;
+    font-size: 0.8em;
+    margin: 0 0 0.3em;
+    letter-spacing: 0.15em;
     color: #232425;
     }
     p {
@@ -68,17 +68,22 @@
     }
     .container {
     max-width: 1240px;
-    margin: 0px auto;
+    margin: 40px auto 0px;
     padding: 32px 0px;
     }
     .section {
     display: block;
-    padding: 16px 24px;
+    padding: 24px;
     }
-   .mission {
+    .intro {
     float: left;
     padding: 24px;
     width: 50%;
+    }
+    .mission {
+    float: left;
+    padding: 24px;
+    width: 75%;
     }
 	header {
   	 width: 100%;
@@ -96,9 +101,9 @@
     float: left;
     display: block;
     color: white;
-    font-weight: 500;
+    font-weight: 600;
 	font-size: 0.9em;
-	letter-spacing: 0.175em;
+	letter-spacing: 0.15em;
     text-transform: uppercase;
     background: #DF3C57;
     padding: 12px 24px;
@@ -112,9 +117,9 @@
     float: left;
     display: block;
     color: black;
-    font-weight: 500;
+    font-weight: 600;
 	font-size: 0.9em;
-	letter-spacing: 0.175em;
+	letter-spacing: 0.15em;
     text-transform: uppercase;
     background: #fafafa;
     padding: 12px 24px;
@@ -138,9 +143,9 @@
      padding: 8px 16px;
      text-align: center;
      text-transform: uppercase;
-	 font-weight: 500;
-	 font-size: 0.9em;
-	 letter-spacing: 0.165em;
+	 font-weight: 600;
+	 font-size: 0.8em;
+	 letter-spacing: 0.15em;
      text-decoration: none;
     }
     .topnav a:hover {
@@ -162,14 +167,14 @@
     padding: 80px 24px 16px;
 	}
     .footer img {
-    max-width: 164px;
+    max-width: 124px;
     }
     .footer a.button-secondary {
     margin-right: 0px;
     }
 
 	.image {
-	width: 172px;
+	width: 204px;
 	}
 	.portfolio {
 	max-width: 920px;
@@ -187,10 +192,10 @@
     padding-right: 0px;    
     }
     .quote {
-    border-left: 4px solid #8e8282; 
+    border-left: 4px solid #DF3C57;
+    border-radius: 4px;
     padding: 0px 16px 0px 24px;
-    margin: 40px 32px;
-    width: 75%;
+    margin: 40px 48px;
     }
 	.column-article {
 	 float: left;
@@ -199,8 +204,8 @@
 	}
     .column-title {
 	 float: left;
-	 padding: 24px;
-	 width: 100%;
+	 padding-left: 24px;
+	 width: 75%;
 	}
     .portfolio-details {
     flex-direction: row;
@@ -209,9 +214,6 @@
     padding-top: 8px;
     display: flex;
     }
-    .portfolio-details h4 {
-    color: #BBBBBB
-    }
     .details-box {
      float: left;
 	 padding: 24px 24px 32px 24px;
@@ -219,17 +221,17 @@
 	}
     .column-details-left {
     float: left;
-    padding: 32px 12px 32px 32px;
-    width: 45%;
+    padding: 24px 12px 24px 24px;
+    width: 50%;
     }
     .column-details-right {
     float: left;
-    padding: 32px 32px 32px 12px;
-    width: 55%;
+    padding: 24px 24px 24px 12px;
+    width: 50%;
     }
     .column-details {
     float: left;
-    padding: 32px;
+    padding: 24px;
     width: 100%;
     }
 	.column-portfolio {
@@ -254,13 +256,6 @@
      align-items: center;
     }
 
-    .portfolio-row h2 { 
-     font-size: 4.5em;
-     padding-left: 32px;
-     color: #232425;
-     display: block;
-    }
-
 	.logo-section {
 	display: flex;
     align-items: center;
@@ -273,6 +268,21 @@
 	.logo {
 	width: 100%;
 	padding-bottom: 12px;
+	}
+    .tag-section {
+	display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction:row;
+	}
+    .tag {
+	padding: 6px 12px;
+    background-color: #F1F1F1;
+    margin: 4px;
+    border-radius: 8px;
+    font-size: 0.9em;
 	}
 	.row:after {
   	 content: "";
@@ -298,10 +308,6 @@
     font-size: 3.25em;
     line-height: 1.1em;
     }
-    .portfolio-row h2 {
-    padding-left: 16px;
-    font-size: 1.9em;
-    }
     .container {
     padding-top: 16px;
     }
@@ -311,16 +317,13 @@
   	}
 	.column-portfolio {
     padding: 12px 24px;
-	   width: 100%;
+    width: 100%;
   	}
 	.column-menu {
     padding: 24px 32px;
 	}
-    .column-details-left {
-    width: 50%;
-    }
-    .column-details-right {
-    width: 50%;
+    .column-title {
+    width: 100%;
     }
     .details-box {
     width: 100%;
@@ -337,17 +340,17 @@
     display: block;
     width: 100%;
     }
-    .footer img {
-    max-width: 240px;
-    }
     .footer a.button-secondary {
     margin-bottom: 48px;
     }
     .footer a.button {
     margin: 24px 0px 4px;
     }
-    .mission {
+    .intro {
     padding: 0px 24px;
+    width: 100%;
+    }
+    .mission {
     width: 100%;
     }
     .feature-image {
@@ -357,7 +360,7 @@
     border-radius: 12px;
     }
     .image {
-    width: 120px;
+    width: 180px;
     }
     .menu-image {
     border-radius: 12px;
@@ -414,12 +417,16 @@
 	{
     .column-details-left {
     width: 100%;
-    padding: 32px 32px 0px 32px;
+    padding: 24px 24px 0px 24px;
     }
     .column-details-right {
     width: 100%;
-    padding: 32px;
+    padding: 0px 24px 24px 24px;
+    }
+    .tag {
+    margin: 4px 8px 4px 0px;
     }
     }
+    
 
 
