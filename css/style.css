@@ -32,8 +32,8 @@
  	 font-family: "Poppins", sans-serif;
 	 font-weight: 400;
 	 letter-spacing: -0.01em;
-	 font-size: 1.45em;
-	 line-height: 1.35em;
+	 font-size: 1.5em;
+	 line-height: 1.4em;
 	 margin: 0 0 0.5em;
 	 color: #383838;
 	}
@@ -41,7 +41,8 @@
 	text-transform: uppercase;
 	font-weight: 600;
 	font-size: 1em;
-    margin: 0 0 0.4em;
+ line-height: 1em;
+ margin: 0 0 0.4em;
 	letter-spacing: 0.15em;
 	color: #383838;
 	}
@@ -50,6 +51,7 @@
     text-transform: uppercase;
     font-weight: 600;
     font-size: 0.8em;
+    line-height: 1em;
     margin: 0 0 0.3em;
     letter-spacing: 0.15em;
     color: #232425;
@@ -307,12 +309,12 @@
 	@media screen and (max-width: 960px) 
 	{
     h1 {
-    font-size: 3.25em;
+    font-size: 3.45em;
     line-height: 1em;
     margin: 0em 0 0.4em;
     }
     h2 {
-    font-size: 2.15em;
+    font-size: 2.25em;
     line-height: 1.25em;
     margin: 0em 0 0.5em;
     }
@@ -366,7 +368,7 @@
     border-radius: 12px;
     }
     .image {
-    width: 148px;
+    width: 140px;
     }
     .topnav a {
     padding-top: 0px;
@@ -427,6 +429,9 @@
     }
     .primer {
     max-width: 320px;
+    }
+    .image {
+    max-width: 104px;
     }
     .tag {
     margin: 4px 8px 4px 0px;
