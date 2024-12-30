@@ -25,7 +25,7 @@
 	 letter-spacing: -0.025em;
 	 font-size: 2em;
 	 line-height: 1.35em;
-	 margin: 0 0 0.5em;
+	 margin: 0em 0 0.5em;
 	 color: #383838;
 	}
 	h4 {
@@ -34,10 +34,11 @@
 	 letter-spacing: -0.01em;
 	 font-size: 1.5em;
 	 line-height: 1.4em;
-	 margin: 0 0 0.5em;
+	 margin: 0em 0 0.5em;
 	 color: #383838;
 	}
     h5 {
+					font-family: "Poppins", sans-serif;
 	text-transform: uppercase;
 	font-weight: 600;
 	font-size: 1em;
@@ -46,17 +47,7 @@
 	letter-spacing: 0.15em;
 	color: #383838;
 	}
-    h6 {
-    font-family: "Poppins", sans-serif;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 0.8em;
-    line-height: 1em;
-    margin: 0 0 0.3em;
-    letter-spacing: 0.15em;
-    color: #232425;
-    }
-    p {
+  p {
     margin: 16px 0px 24px 0px;
     }
     body {
