@@ -40,9 +40,9 @@
     h5 {
 	text-transform: uppercase;
 	font-weight: 600;
-	font-size: 1em;
+	font-size: 0.9em;
  line-height: 1em;
- margin: 0 0 0.4em;
+ margin: 0em 0 0.4em;
 	letter-spacing: 0.15em;
 	color: #515151;
 	}
@@ -136,7 +136,7 @@
      text-align: center;
      text-transform: uppercase;
 	 font-weight: 600;
-	 font-size: 0.8em;
+	 font-size: 0.9em;
 	 letter-spacing: 0.15em;
      text-decoration: none;
     }
