@@ -195,10 +195,9 @@
     border-radius: 16px;    
     }
     .quote {
-    border-left: 4px solid #DF3C57;
-    border-radius: 4px;
+    border-left: 2px solid #000000;
     padding: 0px 16px 0px 24px;
-    margin: 40px 48px;
+    margin: 24px 48px;
     }
 	.column-article {
 	 float: left;
