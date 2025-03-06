@@ -193,8 +193,8 @@
     border-radius: 16px;
     }
 
-	.image {
-	width: 112px;
+	.hero-nav {
+	width: 100%;
 	}
 	.portfolio {
 	max-width: 920px;
