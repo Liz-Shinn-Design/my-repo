@@ -11,13 +11,7 @@
          margin-block-end: 0.575em;
 	 color: #190805;
 	}
-	h1.inverse {
- 	 font-family: job-clarendon, serif;
-         font-size: 4em;
-	 line-height: 1em;	
-	 font-weight: 800;
-	 margin-block-start: 0.1em;
-         margin-block-end: 0.575em;
+	.inverse {
 	 color: #F9F7F6;
 	}	
 	h2 {
@@ -29,15 +23,6 @@
          margin-block-end: 0.575em;	
 	 color: #190805;
 	}
-        h2.inverse {
-	 font-family: degular-display, sans-serif;
-	 font-weight: 500;
-	 font-size: 3em;
-	 line-height: 0.925em;
-	 margin-block-start: 0.1em;
-         margin-block-end: 0.575em;
-	 color: #F9F7F6;
-	}
 	h3 {
  	 font-family: degular, sans-serif;
 	 font-weight: 400;
@@ -46,15 +31,6 @@
 	 margin-block-start: 0.1em;
          margin-block-end: 0.575em;
 	 color: #190805;
-	}
-	h3.inverse {
- 	 font-family: degular, sans-serif;
-	 font-weight: 400;
-	 font-size: 2.5em;
-	 line-height: 2.875em;
-	 margin-block-start: 0.1em;
-         margin-block-end: 0.575em;
-	 color: #F9F7F6;
 	}
 	h4 {
  	 font-family: degular, sans-serif;
