@@ -299,11 +299,11 @@
 	}
     .tag {
 	padding: 6px 12px;
-    background-color: #F1F1F1;
-    color: #383838;
-    margin: 4px;
-    border-radius: 8px;
-    font-size: 1em;
+    	background-color: #F1F1F1;
+    	color: #383838;
+    	margin: 4px;
+    	border-radius: 8px;
+    	font-size: 0.85em;
 	}
 	.row:after {
   	 content: "";
