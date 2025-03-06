@@ -138,7 +138,7 @@
     margin: 0px 16px 16px 0px;
     }
     .button-secondary:hover {
-    background: #FAFAFA;
+    background: rgba(0,0,0,0.3);
     }
     .topnav {
     overflow: hidden;
