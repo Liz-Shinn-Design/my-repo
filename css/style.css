@@ -417,7 +417,7 @@
     position: absolute;
     right: 0;
     top: 12px;
-    background-color: rgba(255,255,0.8);
+    background-color: rgba(255,255,255,0.8);
     border-radius: 12px;
     }
     .topnav.responsive a.split {
