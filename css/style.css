@@ -71,7 +71,6 @@
 	margin-block-start: 0.1em;
         margin-block-end: 1em;
      	font-weight: 400;
-     	color: #190805;
 	}
     .container {
     max-width: 1240px;
@@ -185,7 +184,7 @@
     }
 
     .footer h6 {
-    color: #828F95;
+    color: rgba(0,0,0,0.35);
     }
     
     video {
