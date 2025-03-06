@@ -312,7 +312,7 @@
 	}
     .row-details {
     border-radius: 16px;
-    background-color: #EFEFEF;
+    background-color: rgba(0,0,0,0.025);
     }
     .row-details:after {
   	 content: "";
