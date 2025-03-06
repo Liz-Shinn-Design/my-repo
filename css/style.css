@@ -298,7 +298,7 @@
 	}
     .tag {
 	padding: 6px 12px;
-    	background-color: #F1F1F1;
+    	background-color: rgba(0,0,0,0.03);
     	color: #383838;
     	margin: 4px;
     	border-radius: 8px;
