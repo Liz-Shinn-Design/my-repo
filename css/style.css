@@ -88,12 +88,12 @@
 	color: #190805;
 	}
   	p {
-    	margin: 16px 0px 24px 0px;
+    	margin: 16px 0px 28px 0px;
    	 }
     	body {
      	font-family: degular, sans-serif;
      	font-size: 1.5em;
-	line-height: 2.25em;
+	line-height: 2em;
      	font-weight: 400;
      	background-color: #F9F7F6;
      	color: #190805;
@@ -142,11 +142,13 @@
     display: block;
     color: white;
     font-weight: 600;
-	font-size: 1em;
-	letter-spacing: 0.15em;
+    font-size: 1em;
+    letter-spacing: 0.15em;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
     text-transform: uppercase;
     background: #DF3C57;
-    padding: 12px 24px;
+    padding: 24px 48px;
     border-radius: 999px;
     margin: 0px 16px 0px 0px;
     }
@@ -158,17 +160,19 @@
     display: block;
     color: black;
     font-weight: 600;
-	font-size: 1em;
-	letter-spacing: 0.15em;
+    font-size: 1em;
+    letter-spacing: 0.15em;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
     text-transform: uppercase;
-    background: #fafafa;
-    padding: 12px 24px;
+    background: #F9F7F6;
+    padding: 24px 48px;
     border: 1px solid black;
     border-radius: 999px;
     margin: 0px 16px 16px 0px;
     }
     .button-secondary:hover {
-    background: #EBEFF2;
+    background: #FAFAFA;
     }
     .topnav {
     overflow: hidden;
