@@ -27,7 +27,7 @@
  	 font-family: degular, sans-serif;
 	 font-weight: 400;
 	 font-size: 2.5em;
-	 line-height: 2.875em;
+	 line-height: 1em;
 	 margin-block-start: 0.1em;
          margin-block-end: 0.575em;
 	 color: #190805;
@@ -325,13 +325,16 @@
 	@media screen and (max-width: 960px) 
 	{
     h1 {
-    font-size: 3em;
+    font-size: 2.625em;
     }
     h2 {
     font-size: 2em;
     }
     h3 {
-    font-size: 1.875em;
+    font-size: 1.95em;
+    }
+    h4 {
+    font-size: 1.5em;
     }
     .container {
     margin: 24px auto 0px;
