@@ -212,6 +212,11 @@ video {
 	padding: 24px;
 	width: 50%;
 }
+.job-details {
+	float: left;
+	padding-left: 24px;
+	width: 50%;
+}
 .column-details-left {
 	float: left;
 	padding-right: 24px;
@@ -415,6 +420,11 @@ video {
 		width: 100%;
 		padding: 24px 24px 24px;
 	}
+	.job-details {
+		padding: 24px 24px 24px;
+		width: 100%;
+	}
+
 	.column-details-right {
 		width: 100%;
 		padding: 24px 24px 24px;
