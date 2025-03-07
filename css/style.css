@@ -344,12 +344,6 @@ video {
 		display: block;
 		width: 100%;
 	}
-	.footer a.button-secondary {
-		margin-bottom: 48px;
-	}
-	.footer a.button {
-		margin: 24px 4px;
-	}
 	.intro {
 		padding: 24px;
 		width: 100%;
@@ -376,12 +370,6 @@ video {
 	.button {
 		width: 100%;
 		text-align: center;
-		margin: 16px;
-	}
-	.button-secondary {
-		width: 100%;
-		text-align: center;
-		margin: 16px;
 	}
 }
 @media screen and (max-width: 960px) {
