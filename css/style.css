@@ -238,7 +238,7 @@ video {
 	flex-direction: column;
 	display: flex;
 }
-.menu--de a {
+.menu-row a {
 	flex-direction: row;
 	display: flex;
 	border-bottom: 1px solid #e4e4e4;
