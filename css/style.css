@@ -219,7 +219,7 @@ video {
 	padding-left: 24px;
 	width: 50%;
 }
-.column-details-left {
+.skills {
 	float: left;
 	padding-right: 24px;
 	width: 50%;
@@ -406,18 +406,16 @@ video {
 }
 
 @media screen and (max-width: 640px) {
-	.column-details-left {
-		width: 100%;
-		padding: 24px 24px 24px;
-	}
 	.job-details {
 		padding: 24px 24px 24px;
 		width: 100%;
 	}
-
 	.column-details-right {
 		width: 100%;
 		padding: 24px 24px 24px;
+	}
+	.skills {
+		width: 100%;
 	}
 	.primer {
 		max-width: 320px;
