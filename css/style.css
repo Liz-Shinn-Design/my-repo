@@ -276,13 +276,13 @@ video {
 	flex-direction: row;
 }
 .tag {
-	padding: 8px 12px;
+	padding: 6px 20px;
 	background-color: rgba(0, 0, 0, 0.03);
 	color: #383838;
 	margin-right: 6px;
 	margin-bottom: 6px;
 	border-radius: 48px;
-	font-size: 1.45em;
+	font-size: 1.375em;
 }
 .row:after {
 	content: "";
