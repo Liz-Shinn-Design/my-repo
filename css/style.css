@@ -48,7 +48,7 @@ h5 {
 	font-family: degular, sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 1.35em;
+	font-size: 1.25em;
 	line-height: 1em;
 	letter-spacing: 0.15em;
 	margin-block-start: 0.1em;
@@ -209,17 +209,17 @@ video {
 }
 .details-box {
 	float: left;
-	padding: 24px 24px 32px 24px;
+	padding: 24px;
 	width: 50%;
 }
 .column-details-left {
 	float: left;
-	padding: 24px 12px 24px 24px;
+	padding-right: 24px;
 	width: 50%;
 }
 .column-details-right {
 	float: left;
-	padding: 24px 24px 24px 12px;
+	padding-right: 24px;
 	width: 50%;
 }
 .column-details {
@@ -238,7 +238,7 @@ video {
 	flex-direction: column;
 	display: flex;
 }
-.menu-row a {
+.menu--de a {
 	flex-direction: row;
 	display: flex;
 	border-bottom: 1px solid #e4e4e4;
