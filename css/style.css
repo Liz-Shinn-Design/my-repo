@@ -188,7 +188,7 @@ video {
 .quote {
 	border-left: 3px solid #000000;
 	padding-left: 40px;
-	margin: 48px;
+	margin-top: 48px;
 }
 .column-article {
 	float: left;
