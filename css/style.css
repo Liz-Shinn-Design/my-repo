@@ -96,7 +96,8 @@ a {
 ul {
 	padding-top: 16px;
 	padding-bottom: 24px;
-	font-size: 1.1em;
+	font-size: 1.4em;
+	list-style: circle;
 }
 .button {
 	display: inline-table;
@@ -154,6 +155,7 @@ ul {
 }
 .footer img {
 	max-width: 124px;
+	padding-bottom: 12px;
 }
 
 .footer h6 {
