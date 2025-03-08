@@ -176,6 +176,10 @@ ul {
 .footer-details {
 	padding: 96px 48px;
 }
+.footer-blurb {
+	padding: 96px 48px;
+	max-width: 480px;
+}
 video {
 	max-width: 480px;
 	border-radius: 16px;
@@ -395,7 +399,7 @@ video {
 		margin: 80px 64px;
 	}
 	.footer-details {
-		padding: 16px 24px;
+		padding: 24px;
 	}
 }
 @media screen and (max-width: 960px) {
@@ -466,6 +470,10 @@ video {
 		padding-left: 24px;
 	}
 	.footer-details {
-		padding: 12px 24px;
+		padding: 16px 24px;
+	}
+	.footer-blurb {
+		padding: 16px 24px;
+		width: 100%;
 	}
 }
