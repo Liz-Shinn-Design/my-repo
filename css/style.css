@@ -109,20 +109,27 @@ ul {
 .numbered-list li {
 	display: flex;
 	align-items: center;
-	margin-bottom: 10px;
+	font-size: 1.6em;
+	margin-bottom: 16px;
 }
 .circle {
 	width: 40px;
 	height: 40px;
+	border-radius: 50%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background-color: #0c4635;
 	color: white;
-	font-size: 1.3em;
-	border-radius: 50%;
+	font-weight: 700;
+	font-size: 20px;
 	margin-right: 10px;
+	flex-shrink: 0;
 }
+.numbered-list li span {
+	flex-shrink: 0;
+}
+
 .button {
 	display: inline-table;
 	color: #190805;
