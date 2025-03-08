@@ -157,10 +157,11 @@ ul {
 	max-width: 1240px;
 	margin: auto;
 	padding-top: 24px;
+	padding-bottom: 64px;
 }
 .footer img {
 	max-width: 302px;
-	padding: 96px 48px 16px 0px;
+	padding: 96px 48px 16px 24px;
 }
 .footer a {
 	color: #f9f7f6;
@@ -173,10 +174,10 @@ ul {
 	font-size: 0.875em;
 }
 .footer-links {
-	padding: 96px 48px 16px 0px;
+	padding: 96px 48px 16px 24px;
 }
 .footer-blurb {
-	padding: 96px 96px 16px 16px;
+	padding: 96px 140px 16px 16px;
 }
 video {
 	max-width: 480px;
