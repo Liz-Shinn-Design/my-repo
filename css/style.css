@@ -83,11 +83,6 @@ body {
 	display: block;
 	padding: 24px;
 }
-.section-black {
-	display: block;
-	background-color: #190805;
-	padding: 6px;
-}
 .mission {
 	float: left;
 	padding: 24px;
@@ -161,8 +156,7 @@ ul {
 	display: flex;
 	max-width: 1240px;
 	margin: auto;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 24px;
 }
 .footer img {
 	max-width: 302px;
@@ -215,9 +209,16 @@ video {
 	margin-top: 48px;
 }
 .testimonial {
+	background-color: #190805;
+}
+.testimonial-container {
+	max-width: 1240px;
+	margin: auto;
+	padding: 24px;
+}
+.testimonial-details {
 	border-left: 3px solid #f9f7f6;
 	padding-left: 40px;
-	margin: 120px 24px;
 }
 .column-article {
 	float: left;
@@ -398,9 +399,6 @@ video {
 		width: 100%;
 		text-align: center;
 	}
-	.testimonial {
-		margin: 96px 24px;
-	}
 	.footer-details {
 		padding: 16px 24px;
 	}
@@ -468,10 +466,6 @@ video {
 	.menu-row a {
 		display: block;
 		padding: 24px;
-	}
-	.testimonial {
-		margin: 96px 24px;
-		padding-left: 24px;
 	}
 	.quote {
 		padding-left: 24px;
