@@ -86,7 +86,7 @@ body {
 .section-black {
 	display: block;
 	background-color: #190805;
-	padding: 4px;
+	padding: 6px;
 }
 .mission {
 	float: left;
@@ -160,6 +160,9 @@ ul {
 	align-items: flex-start;
 	display: flex;
 	max-width: 1240px;
+	margin: auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 .footer img {
 	max-width: 302px;
@@ -179,8 +182,7 @@ ul {
 	padding: 96px 48px;
 }
 .footer-blurb {
-	padding: 96px 48px;
-	max-width: 480px;
+	padding: 96px 96px 96px 16px;
 }
 video {
 	max-width: 480px;
@@ -215,7 +217,7 @@ video {
 .testimonial {
 	border-left: 3px solid #f9f7f6;
 	padding-left: 40px;
-	margin: 96px 24px;
+	margin: 120px 24px;
 }
 .column-article {
 	float: left;
@@ -397,13 +399,14 @@ video {
 		text-align: center;
 	}
 	.testimonial {
-		margin: 80px 24px;
+		margin: 96px 24px;
 	}
 	.footer-details {
-		padding: 24px;
+		padding: 16px 24px;
 	}
 	.footer-blurb {
-		padding: 24px;
+		padding: 16px 24px;
+		max-width: 480px;
 	}
 }
 @media screen and (max-width: 960px) {
@@ -467,16 +470,10 @@ video {
 		padding: 24px;
 	}
 	.testimonial {
-		margin: 80px 24px;
+		margin: 96px 24px;
 		padding-left: 24px;
 	}
 	.quote {
 		padding-left: 24px;
-	}
-	.footer-details {
-		padding: 16px 24px;
-	}
-	.footer-blurb {
-		padding: 16px 24px;
 	}
 }
