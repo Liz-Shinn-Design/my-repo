@@ -51,8 +51,8 @@ h5 {
 	font-family: degular, sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 1.25em;
-	line-height: 1.1em;
+	font-size: 1.2em;
+	line-height: 1.275em;
 	letter-spacing: 0.15em;
 	margin-block-start: 0.1em;
 	margin-block-end: 0.25em;
@@ -61,7 +61,7 @@ h5 {
 h6 {
 	font-family: degular, sans-serif;
 	font-size: 1.1em;
-	line-height: 1.1em;
+	line-height: 1.375em;
 	margin-block-start: 0.1em;
 	margin-block-end: 0.75em;
 	font-weight: 400;
@@ -159,9 +159,6 @@ ul {
 	padding: 24px 24px 24px;
 	background-color: #0a392b;
 }
-.footer-details {
-	padding-left: 96px;
-}
 .footer img {
 	max-width: 302px;
 	padding-bottom: 24px;
@@ -175,6 +172,9 @@ ul {
 }
 .footer p {
 	font-size: 0.875em;
+}
+.footer-details {
+	padding: 96px 48px;
 }
 video {
 	max-width: 480px;
@@ -395,7 +395,7 @@ video {
 		margin: 80px 64px;
 	}
 	.footer-details {
-		padding: 40px;
+		padding: 16px 24px;
 	}
 }
 @media screen and (max-width: 960px) {
@@ -466,6 +466,6 @@ video {
 		padding-left: 24px;
 	}
 	.footer-details {
-		padding: 24px;
+		padding: 12px 24px;
 	}
 }
