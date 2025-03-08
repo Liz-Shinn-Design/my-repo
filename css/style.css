@@ -156,7 +156,6 @@ ul {
 	justify-content: space-between;
 	align-items: flex-start;
 	display: flex;
-	padding: 24px 88px;
 	background-color: #0a392b;
 }
 .footer img {
@@ -213,7 +212,7 @@ video {
 .testimonial {
 	border-left: 3px solid #f9f7f6;
 	padding-left: 40px;
-	margin: 80px 204px;
+	margin: 80px 4px;
 }
 .column-article {
 	float: left;
@@ -366,7 +365,6 @@ video {
 	.footer {
 		display: block;
 		width: 100%;
-		padding: 16px;
 	}
 	.intro {
 		padding: 24px;
@@ -396,7 +394,7 @@ video {
 		text-align: center;
 	}
 	.testimonial {
-		margin: 80px 64px;
+		margin: 80px 4px;
 	}
 	.footer-details {
 		padding: 24px;
@@ -466,7 +464,7 @@ video {
 		padding: 24px;
 	}
 	.testimonial {
-		margin: 80px 20px;
+		margin: 80px 4px;
 		padding-left: 24px;
 	}
 	.quote {
