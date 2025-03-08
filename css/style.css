@@ -80,6 +80,12 @@ body {
 	display: block;
 	padding: 24px;
 }
+.section-black {
+	display: block;
+	background-color: #190805;
+	color: #fdfcfc;
+	padding: 24px;
+}
 .mission {
 	float: left;
 	padding: 24px;
@@ -191,6 +197,11 @@ video {
 	border-left: 3px solid #000000;
 	padding-left: 40px;
 	margin-top: 48px;
+}
+.testimonial {
+	border-left: 3px solid #f9f7f6;
+	padding-left: 40px;
+	margin: 80px 188px;
 }
 .column-article {
 	float: left;
@@ -371,6 +382,9 @@ video {
 		width: 100%;
 		text-align: center;
 	}
+	.testimonial {
+		margin: 80px 64px;
+	}
 }
 @media screen and (max-width: 960px) {
 	.topnav a:not(:first-child) {
@@ -431,5 +445,12 @@ video {
 	.menu-row a {
 		display: block;
 		padding: 24px;
+	}
+	.testimonial {
+		margin: 80px 20px;
+		padding-left: 24px;
+	}
+	.quote {
+		padding-left: 24px;
 	}
 }
