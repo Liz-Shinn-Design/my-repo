@@ -198,11 +198,13 @@ video {
 	padding-left: 40px;
 	margin-top: 48px;
 }
+.section-black {
+	background-color: #190805;
+}
 .testimonial {
 	border-left: 3px solid #f9f7f6;
 	padding-left: 40px;
 	margin: 80px 188px;
-	background-color: #190805;
 }
 .column-article {
 	float: left;
@@ -355,6 +357,8 @@ video {
 	.footer {
 		display: block;
 		width: 100%;
+		padding: 16px;
+		background-color: #0A392B;
 	}
 	.intro {
 		padding: 24px;
