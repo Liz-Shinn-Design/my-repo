@@ -110,11 +110,11 @@ ul {
 	display: flex;
 	align-items: center;
 	font-size: 1.6em;
-	margin-bottom: 16px;
+	margin-bottom: 20px;
 }
 .circle {
-	width: 40px;
-	height: 40px;
+	width: 48px;
+	height: 48px;
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
@@ -122,8 +122,8 @@ ul {
 	background-color: #0c4635;
 	color: white;
 	font-weight: 700;
-	font-size: 20px;
-	margin-right: 10px;
+	font-size: 24px;
+	margin-right: 16px;
 	flex-shrink: 0;
 }
 .numbered-list li span {
@@ -438,6 +438,9 @@ video {
 	.footer-blurb {
 		padding: 16px 24px;
 		max-width: 480px;
+	}
+	.numbered-list li {
+		align-items: baseline;
 	}
 }
 @media screen and (max-width: 960px) {
