@@ -23,7 +23,7 @@ h1 {
 h2 {
 	font-family: degular-display, sans-serif;
 	font-weight: 500;
-	font-size: 4.2em;
+	font-size: 4em;
 	line-height: 1em;
 	margin-block-start: 0.1em;
 	margin-block-end: 0.575em;
@@ -68,7 +68,7 @@ h6 {
 }
 p {
 	font-size: 1.6em;
-	line-height: 1.8em;
+	line-height: 1.725em;
 }
 body {
 	font-family: degular, sans-serif;
@@ -106,14 +106,15 @@ ul {
 	display: inline-table;
 	color: #190805;
 	font-weight: 700;
-	font-size: 1.1em;
+	font-size: 1.2em;
 	letter-spacing: 0.15em;
 	margin-block-start: 0.1em;
 	margin-block-end: 0.1em;
 	text-transform: uppercase;
 	background: #f9f7f6;
-	padding: 16px 32px;
+	padding: 20px 32px;
 	border: 1px solid #190805;
+	margin-bottom: 32px;
 }
 .button:hover {
 	background: rgba(0, 0, 0, 0.1);
@@ -190,7 +191,7 @@ video {
 .portfolio {
 	max-width: 920px;
 	width: 100%;
-	border-radius: 16px;
+	border-radius: 24px;
 }
 .primer {
 	max-width: 400px;
@@ -198,11 +199,11 @@ video {
 }
 .feature-image {
 	width: 100%;
-	border-radius: 16px;
+	border-radius: 24px;
 }
 .menu-image {
 	width: 25%;
-	border-radius: 16px;
+	border-radius: 24px;
 }
 .quote {
 	border-left: 3px solid #190805;
@@ -381,17 +382,17 @@ video {
 		width: 100%;
 	}
 	.feature-image {
-		border-radius: 12px;
+		border-radius: 24px;
 	}
 	.portfolio {
-		border-radius: 12px;
+		border-radius: 24px;
 	}
 	video {
 		max-width: 100%;
 		border-radius: 12px;
 	}
 	.hero-nav {
-		width: 272px;
+		width: 296px;
 	}
 	.row-details {
 		border-radius: 12px;
@@ -464,7 +465,7 @@ video {
 		max-width: 104px;
 	}
 	.menu-image {
-		border-radius: 16px;
+		border-radius: 24px;
 		width: 100%;
 	}
 	.menu-row a {
