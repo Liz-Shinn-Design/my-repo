@@ -156,7 +156,7 @@ ul {
 	justify-content: space-between;
 	align-items: flex-start;
 	display: flex;
-	padding: 24px 24px 24px;
+	padding: 24px 88px;
 	background-color: #0a392b;
 }
 .footer img {
@@ -401,6 +401,9 @@ video {
 	.footer-details {
 		padding: 24px;
 	}
+	.footer-blurb {
+		padding: 24px;
+	}
 }
 @media screen and (max-width: 960px) {
 	.topnav a:not(:first-child) {
@@ -474,6 +477,5 @@ video {
 	}
 	.footer-blurb {
 		padding: 16px 24px;
-		width: 100%;
 	}
 }
