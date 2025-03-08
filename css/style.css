@@ -155,13 +155,14 @@ ul {
 	align-items: flex-start;
 	display: flex;
 	padding: 80px 24px;
+	background-color: #0A392B;
 }
 .outro {
 	padding-right: 24px;
 }
 .footer img {
-	max-width: 124px;
-	padding-bottom: 12px;
+	max-width: 302px;
+	padding-bottom: 24px;
 }
 
 .footer h6 {
@@ -358,7 +359,6 @@ video {
 		display: block;
 		width: 100%;
 		padding: 16px;
-		background-color: #0A392B;
 	}
 	.intro {
 		padding: 24px;
