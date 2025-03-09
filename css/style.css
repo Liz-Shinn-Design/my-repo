@@ -206,15 +206,10 @@ body {
 	margin: auto;
 	padding: 128px 64px;
 }
-.column-title {
+.heading {
 	float: left;
 	padding-left: 24px;
-	width: 85%;
-}
-.mission {
-	float: left;
-	padding: 24px;
-	width: 80%;
+	max-width: 1080px;
 }
 .column-article {
 	float: left;
@@ -394,7 +389,7 @@ video {
 		padding: 12px 24px;
 		width: 100%;
 	}
-	.column-title {
+	.heading {
 		width: 100%;
 	}
 	.details {
@@ -413,9 +408,6 @@ video {
 	}
 	.intro {
 		padding: 24px;
-		width: 100%;
-	}
-	.mission {
 		width: 100%;
 	}
 	.feature-image {
