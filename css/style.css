@@ -15,6 +15,9 @@
 .inverse {
 	color: #f9f7f6;
 }
+.neutral-dark {
+	color: #190805;
+}
 .peachy {
 	color: #f76d45;
 }
@@ -194,7 +197,7 @@ body {
 	padding: 24px;
 }
 .quote-section {
-	background-color: #093326;
+	background-color: #190805;
 }
 .mission {
 	float: left;
