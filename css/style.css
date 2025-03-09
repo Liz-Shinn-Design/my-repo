@@ -103,10 +103,10 @@ ul {
 .circle {
 	width: 48px;
 	height: 48px;
+	line-height: 40px;
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	background-color: #0c4635;
 	color: white;
 	font-weight: 700;
@@ -218,27 +218,26 @@ body {
 	padding-top: 8px;
 	display: flex;
 }
-.details-box {
+.skills-row {
+	float: left;
+	padding-right: 24px;
+	width: 50%;
+}
+.details-section {
+	border-radius: 16px;
+	background-color: rgba(0, 0, 0, 0.025);
+}
+.details-section:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.details {
 	float: left;
 	padding: 24px;
 	width: 50%;
 }
-.job-details {
-	float: left;
-	padding-left: 24px;
-	width: 50%;
-}
-.skills {
-	float: left;
-	padding-right: 24px;
-	width: 50%;
-}
-.column-details-right {
-	float: left;
-	padding-right: 24px;
-	width: 50%;
-}
-.column-details {
+.details-container {
 	float: left;
 	padding: 24px;
 	width: 100%;
@@ -289,15 +288,6 @@ body {
 	font-size: 1.375em;
 }
 .row:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-.row-details {
-	border-radius: 16px;
-	background-color: rgba(0, 0, 0, 0.025);
-}
-.row-details:after {
 	content: "";
 	display: table;
 	clear: both;
