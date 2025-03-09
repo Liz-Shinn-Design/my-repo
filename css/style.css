@@ -193,6 +193,9 @@ body {
 	display: block;
 	padding: 24px;
 }
+quote-section {
+	background-color: #093326;
+}
 .mission {
 	float: left;
 	padding: 24px;
