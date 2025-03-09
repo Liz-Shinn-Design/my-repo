@@ -269,11 +269,11 @@ body {
 	flex-direction: row;
 }
 .tag {
-	padding: 6px 20px;
+	padding: 12px 20px;
 	background-color: rgba(0, 0, 0, 0.03);
 	color: #383838;
-	margin-right: 6px;
-	margin-bottom: 6px;
+	margin-right: 8px;
+	margin-bottom: 8px;
 	border-radius: 48px;
 	font-size: 1.375em;
 }
