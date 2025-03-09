@@ -227,7 +227,7 @@ body {
 	width: 50%;
 }
 .details-section {
-	border-radius: 16px;
+	border-radius: 24px;
 	background-color: rgba(0, 0, 0, 0.025);
 	margin-bottom: 24px;
 }
@@ -238,7 +238,7 @@ body {
 }
 .details-container {
 	float: left;
-	padding: 16px;
+	padding: 8px;
 	width: 100%;
 }
 .details-content {
@@ -338,7 +338,7 @@ body {
 /* Imagery */
 video {
 	max-width: 480px;
-	border-radius: 16px;
+	border-radius: 24px;
 }
 .hero-nav {
 	width: 100%;
@@ -426,13 +426,10 @@ video {
 	}
 	video {
 		max-width: 100%;
-		border-radius: 12px;
+		border-radius: 24px;
 	}
 	.hero-nav {
 		width: 296px;
-	}
-	.row-details {
-		border-radius: 12px;
 	}
 	.button {
 		width: 100%;
