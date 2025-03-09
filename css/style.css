@@ -442,7 +442,7 @@ video {
 		align-items: baseline;
 	}
 	.quote-container {
-		padding: 128px 64px;
+		padding: 96px 24px;
 	}
 }
 @media screen and (max-width: 960px) {
