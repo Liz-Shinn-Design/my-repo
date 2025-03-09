@@ -201,26 +201,29 @@ body {
 .quote-section {
 	background-color: #190805;
 }
-.mission {
-	float: left;
-	padding: 24px;
-	width: 80%;
-}
 .quote-container {
 	max-width: 1240px;
 	margin: auto;
 	padding: 128px 64px;
 }
-.portfolio-details {
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: flex-start;
-	padding-top: 8px;
-	display: flex;
-}
-.skills-row {
+.column-title {
 	float: left;
-	padding-right: 24px;
+	padding-left: 24px;
+	width: 85%;
+}
+.mission {
+	float: left;
+	padding: 24px;
+	width: 80%;
+}
+.column-article {
+	float: left;
+	padding: 24px 48px 24px 24px;
+	width: 50%;
+}
+.column-portfolio {
+	float: left;
+	padding: 16px 24px;
 	width: 50%;
 }
 .details-section {
@@ -242,20 +245,10 @@ body {
 	padding: 24px;
 	width: 100%;
 }
-.column-portfolio {
+.skills-row {
 	float: left;
-	padding: 16px 24px;
+	padding-right: 24px;
 	width: 50%;
-}
-.column-article {
-	float: left;
-	padding: 24px 48px 24px 24px;
-	width: 50%;
-}
-.column-title {
-	float: left;
-	padding-left: 24px;
-	width: 85%;
 }
 .logo-section {
 	display: flex;
