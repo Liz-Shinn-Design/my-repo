@@ -4,10 +4,10 @@
 
 /* Colors */
 .primary {
-	color: #E94735;
+	color: #e94735;
 }
 .secondary {
-	color: #0C4635;
+	color: #0c4635;
 }
 .tertiary {
 	color: #093326;
@@ -22,7 +22,7 @@
 	color: #f76d45;
 }
 .bright-green {
-	color: #12664D;
+	color: #12664d;
 }
 
 /* Typography */
@@ -130,7 +130,7 @@ a {
 	text-decoration: none;
 }
 a:hover {
-	color: #D94231;
+	color: #d94231;
 	text-decoration: underline;
 }
 .button {
@@ -171,7 +171,7 @@ a:hover {
 }
 .topnav a:hover {
 	text-decoration: underline;
-	color: #D94231;
+	color: #d94231;
 }
 .topnav a.split {
 	float: right;
@@ -231,12 +231,12 @@ body {
 	display: table;
 	clear: both;
 }
-.details {
+.details-container {
 	float: left;
 	padding: 24px;
 	width: 50%;
 }
-.details-container {
+.details-content {
 	float: left;
 	padding: 24px;
 	width: 100%;
@@ -392,6 +392,9 @@ video {
 	.column-title {
 		width: 100%;
 	}
+	.details {
+		width: 100%;
+	}
 	.details-section {
 		width: 100%;
 	}
@@ -478,10 +481,6 @@ video {
 }
 
 @media screen and (max-width: 640px) {
-	.details-container {
-		padding: 0px 24px;
-		width: 100%;
-	}
 	.skills-row {
 		width: 100%;
 		padding-right: 0px;
