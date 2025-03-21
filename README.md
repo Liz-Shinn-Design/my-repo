@@ -1,4 +1,4 @@
-## Hi there, and welcome. 
+## About
 
 My name's Liz, and I'm a product designer based in ATL. Here you'll find the repo for my design portfolio website.
 
