@@ -288,9 +288,10 @@ body {
 	display: flex;
 	width: 100%;
 	align-items: flex-start;
+	color: #190805;
 }
 .menu-row a:hover {
-	color: #e94735;
+	color: #d94231;
 	text-decoration: none;
 }
 hr {
