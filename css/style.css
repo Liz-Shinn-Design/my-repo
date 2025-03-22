@@ -291,13 +291,13 @@ body {
 .menu-row a {
 	flex-direction: row;
 	display: flex;
-	border-bottom: 1px solid #e4e4e4;
+	border-bottom: 1px solid #000;
 	width: 100%;
-	padding: 40px;
-	align-items: center;
+	padding: 40px 0px;
+	align-items: flex-start;
 }
 .menu-row a:hover {
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 /* Footer */
@@ -334,23 +334,19 @@ body {
 /* Imagery */
 video {
 	max-width: 480px;
-	border-radius: 24px;
 }
 .hero-nav {
-	width: 100%;
+	max-width: 64px;
 }
 .portfolio {
 	max-width: 920px;
 	width: 100%;
-	border-radius: 24px;
 }
 .feature-image {
 	width: 100%;
-	border-radius: 24px;
 }
 .menu-image {
-	width: 25%;
-	border-radius: 24px;
+	max-width: 620px;
 }
 .footer img {
 	max-width: 302px;
