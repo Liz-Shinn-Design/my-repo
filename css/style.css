@@ -291,14 +291,21 @@ body {
 .menu-row a {
 	flex-direction: row;
 	display: flex;
-	border-bottom: 1px solid #000;
 	width: 100%;
-	padding: 40px 0px;
 	align-items: flex-start;
 }
 .menu-row a:hover {
-	text-decoration: underline;
+	color: #e94735;
+	text-decoration: none;
 }
+hr {
+    border: 0;
+    height: 2px;
+    background-color: #000;
+    width: 100%;
+    margin: 24px auto;
+}
+
 
 /* Footer */
 .footer {
