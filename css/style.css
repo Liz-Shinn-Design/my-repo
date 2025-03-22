@@ -406,6 +406,10 @@ video {
 		display: block;
 		padding: 24px;
 	}
+	.menu-section {
+		display: block;
+		padding: 16px 0px;
+	}
 	.footer-container {
 		display: block;
 		width: 100%;
