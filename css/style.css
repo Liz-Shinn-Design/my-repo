@@ -32,7 +32,7 @@ h1 {
 	line-height: 1.1em;
 	font-weight: 800;
 	margin-block-start: 0.1em;
-	margin-block-end: 0.575em;
+	margin-block-end: 0.325em;
 }
 h2 {
 	font-family: degular-display, sans-serif;
@@ -48,7 +48,7 @@ h3 {
 	font-size: 3.4em;
 	line-height: 1em;
 	margin-block-start: 0.1em;
-	margin-block-end: 0.575em;
+	margin-block-end: 0.5em;
 }
 h4 {
 	font-family: degular, sans-serif;
