@@ -294,6 +294,9 @@ body {
 	color: #d94231;
 	text-decoration: none;
 }
+.menu-section {
+	padding: 16px 16px 24px 64px;
+}
 hr {
     border: 0;
     height: 1px;
