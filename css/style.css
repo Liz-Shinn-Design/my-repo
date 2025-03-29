@@ -78,13 +78,13 @@ h6 {
 }
 p {
 	font-size: 1.6em;
-	line-height: 1.65em;
+	line-height: 1.6em;
 }
 ul {
 	padding-top: 16px;
 	padding-bottom: 24px;
 	font-size: 1.6em;
-	line-height: 1.65em;
+	line-height: 1.6em;
 }
 .numbered-list {
 	list-style: none;
@@ -94,7 +94,7 @@ ul {
 	display: flex;
 	align-items: center;
 	font-size: 1.6em;
-	line-height: 1.65em;
+	line-height: 1.6em;
 	margin-bottom: 20px;
 }
 .circle {
