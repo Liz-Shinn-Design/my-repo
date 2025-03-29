@@ -70,8 +70,8 @@ h5 {
 }
 h6 {
 	font-family: degular, sans-serif;
-	font-size: 1.1em;
-	line-height: 1.375em;
+	font-size: 1.275em;
+	line-height: 1.4em;
 	margin-block-start: 0.1em;
 	margin-block-end: 0.75em;
 	font-weight: 400;
@@ -270,7 +270,7 @@ body {
 	margin-right: 8px;
 	margin-bottom: 8px;
 	border-radius: 48px;
-	font-size: 1.375em;
+	font-size: 1.275em;
 }
 .row:after {
 	content: "";
@@ -298,13 +298,12 @@ body {
 	padding: 16px 16px 24px 64px;
 }
 hr {
-    border: 0;
-    height: 1px;
-    background-color: #000;
-    width: 100%;
-    margin: 40px auto;
+	border: 0;
+	height: 1px;
+	background-color: #000;
+	width: 100%;
+	margin: 40px auto;
 }
-
 
 /* Footer */
 .footer {
