@@ -80,6 +80,16 @@ p {
 	font-size: 1.6em;
 	line-height: 1.5em;
 }
+.caption {
+	font-family: degular, sans-serif;
+	font-size: 1em;
+	line-height: 1.2em;
+	color: #767676;
+	padding-left: 24px;
+	padding-right: 24px;
+	block-size: auto;
+	text-align: center;
+} 
 ul {
 	padding-top: 16px;
 	padding-bottom: 24px;
